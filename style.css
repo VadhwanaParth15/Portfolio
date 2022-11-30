@@ -501,7 +501,9 @@ section .title::after{
 }
 
 @media (max-width: 996px) {
-
+    .home{
+        background-position: center;
+    }
     .max-width{
         padding: 0 50px;
     }
