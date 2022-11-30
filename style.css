@@ -507,7 +507,9 @@ section .title::after{
     }
 }
 @media (max-width: 942px){
-    
+    .home{
+        background-position: center;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -573,7 +575,9 @@ section .title::after{
 }
 
 @media (max-width: 690px) {
-    
+    .home{
+        background-position: center;
+    }
     .max-width{
         padding: 0 23px;
     }
@@ -592,6 +596,9 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
+    .home{
+        background-position: center;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
