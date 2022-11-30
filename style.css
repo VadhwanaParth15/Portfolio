@@ -166,7 +166,6 @@ section .title::after{
 .home{
     display: flex;
     background: url("parth-1.png") no-repeat center left;
-    background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -502,17 +501,13 @@ section .title::after{
 }
 
 @media (max-width: 996px) {
-    .home{
-        background-position: center left;
-    }
+
     .max-width{
         padding: 0 50px;
     }
 }
 @media (max-width: 942px){
-    .home{
-        background-position: center;
-    }
+    
     .menu-btn{
         display: block;
         z-index: 999;
@@ -578,9 +573,7 @@ section .title::after{
 }
 
 @media (max-width: 690px) {
-    .home{
-        background-position: left center left;
-    }
+    
     .max-width{
         padding: 0 23px;
     }
@@ -599,9 +592,6 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
-    .home{
-        background-position: center;
-    }
     .home .home-content .text-2{
         font-size: 50px;
     }
