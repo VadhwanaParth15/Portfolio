@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("img/parth-1.png") no-repeat center left;
+    background: url("parth-1.png") no-repeat center left;
     background-size: cover;
     height: 100vh;
     color: #fff;
