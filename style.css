@@ -529,7 +529,7 @@ section .title::after{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: hsla(0, 3%, 6%, 0.74);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
