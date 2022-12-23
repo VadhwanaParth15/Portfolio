@@ -238,8 +238,11 @@ section .title::after{
 .about .about-content .right .text span{
     color: crimson;
 }
-.about .about-content .right p{
+.about .about-content .right pre{
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 .about .about-content .right a{
     display: inline-block;
