@@ -1,12 +1,12 @@
-import React, { Suspense } from "react";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
-import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
-import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import React, { lazy, Suspense } from "react";
 import Loader from "./components/loader/Loader";
+const Header = lazy(() => import("./components/header/Header"));
+const Nav = lazy(() => import("./components/nav/Nav"));
+const About = lazy(() => import("./components/about/About"));
+const Experience = lazy(() => import("./components/experience/Experience"));
+const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
+const Contact = lazy(() => import("./components/contact/Contact"));
+const Footer = lazy(() => import("./components/footer/Footer"));
 const App = () => {
   return (
     <>
