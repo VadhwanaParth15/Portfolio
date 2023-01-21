@@ -10,7 +10,7 @@
     animation: scale-x 1s ease forwards;
     animation-delay: 2.3s;
   }
-  .container span {
+  .loadercontainer span {
     flex-basis: 50%;
     aspect-ratio: 1/1;
     display: block;
