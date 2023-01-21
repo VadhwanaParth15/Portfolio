@@ -52,11 +52,19 @@
     transform: rotateY(180deg);
     opacity: 1;
   }
+
 }
 @keyframes flip-2 {
   to {
     transform: rotateX(180deg);
     opacity: 1;
+
+  .loadercontainer span {
+    flex-basis: 50%;
+    aspect-ratio: 1/1;
+    display: block;
+    transition: opacity 0.7s ease;
+
   }
 }
 @keyframes flip-3 {
@@ -76,4 +84,46 @@
     transform: scale(50);
     opacity: 0;
   }
+
 }
+
+  .tile-4 {
+    background-color: #4db5ff;
+    transform-origin: 0% 50%;
+    animation: flip-3 0.5s linear forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  
+  @keyframes flip-1 {
+    to {
+      transform: rotateY(180deg);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-2 {
+    to {
+      transform: rotateX(180deg);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-3 {
+    to {
+      transform: rotateY(-180deg);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-4 {
+    to {
+      transform: rotateX(-180deg);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-x {
+    to {
+      transform: scale(50);
+      opacity: 0;
+    }
+  }
+  
+
