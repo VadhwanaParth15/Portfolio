@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import './contact.css'
 import{MdOutlineMail} from 'react-icons/md'
 import{BsWhatsapp} from 'react-icons/bs'
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
 
 function contact() {
