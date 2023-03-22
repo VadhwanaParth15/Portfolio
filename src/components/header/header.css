@@ -33,12 +33,12 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 30rem;
+    height: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    padding: 2rem 1.5rem 0 1.5rem;
+    padding: 1rem 1.5rem 0 1.5rem;
     overflow: hidden;
 }
 .scroll__down{
