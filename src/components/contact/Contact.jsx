@@ -5,7 +5,7 @@ import{BsWhatsapp} from 'react-icons/bs'
 import emailjs from 'emailjs-com';
 
 
-function contact() {
+function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -50,4 +50,4 @@ function contact() {
   );
 }
 
-export default contact
+export default Contact
