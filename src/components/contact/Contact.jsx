@@ -2,10 +2,10 @@ import React, { useRef } from 'react'
 import './contact.css'
 import{MdOutlineMail} from 'react-icons/md'
 import{BsWhatsapp} from 'react-icons/bs'
-import emailjs from '@emailjs/emailjs-com';
+import emailjs from 'emailjs-com';
 
 
-const contact = () => {
+function contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -13,10 +13,10 @@ const contact = () => {
 
     emailjs.sendForm('service_qrxptl7', 'template_rcgsfwp', form.current, 'jc3SeOOSRHn3Pe5bg')
       .then((result) => {
-          console.log(result.text);
-          alert('Message Sent Successfully');
+        console.log(result.text);
+        alert('Message Sent Successfully');
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
   return (
@@ -26,13 +26,13 @@ const contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <artical className="contact__option">
-            <MdOutlineMail className="contact__option-icon"/>
+            <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>parthvadhwana15@gmail.com</h5>
             <a href="mailto:parthvadhwana15@gmail.com">Send a Message</a>
           </artical>
           <artical className="contact__option">
-            <BsWhatsapp className="contact__option-icon"/>
+            <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+91 8141070420</h5>
             <a href="https://api.whatsapp.com/send?phone=+918141070420">Send a Message</a>
@@ -47,7 +47,7 @@ const contact = () => {
         </form>
       </div>
     </section>
-  )
+  );
 }
 
 export default contact
