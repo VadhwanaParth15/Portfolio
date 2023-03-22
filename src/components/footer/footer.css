@@ -1,0 +1,38 @@
+footer{
+    background: var(--color-primary);
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 0.9rem;
+
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.icons a{
+    background: var(--color-bg);
+    color: var(--color-white);
+    display: flex;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    border: 1px solid transparent;
+    
+}
+.icons a:hover{
+    color: var(--color-bg);
+    background: transparent;
+    border-color: var(--color-bg);
+}
+
+.company-name{
+    
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
+
