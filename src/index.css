@@ -10,10 +10,10 @@
     text-decoration: none;
 }
 :root{
-    --color-bg:#222438;
-    --color-bg-variant:#292c3e;
+    --color-bg:#1f242d;
+    --color-bg-variant:#323946;
     --color-primary-variant:rgba(77,181,255,0.4);
-    --color-primary:#f54854;
+    --color-primary:rgba(0, 238, 255, 0.836);
     --color-white:#fff;
     --color-light:rgba(225,225,255,0.6);
 
