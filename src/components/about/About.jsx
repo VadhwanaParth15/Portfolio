@@ -16,22 +16,19 @@ const about = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card" data-aos="fade-up"
-     data-aos-duration="3000">
+            <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
               <small>Freshser</small>
             </article>
-            <article className="about__card" data-aos="fade-up"
-     data-aos-duration="3000">
+            <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
               <small>2+</small>
             </article>
           </div>
-          <p data-aos="fade-up"
-     data-aos-duration="3000"> Hello! My name is Parth and I'm Student. I enjoy creating things that live on the internet.I love to share my knowledge and discuss Tech. stuff with my friends and colleagues.<br></br>— after creating some projects that taught me a lot about HTML &amp; CSS!</p>
-          <a href="#contact" className='btn btn-primary' data-aos="zoom-in" data-aos-duration="3000">Let's Talk</a>
+          <p > Hello! My name is Parth and I'm Student. I enjoy creating things that live on the internet.I love to share my knowledge and discuss Tech. stuff with my friends and colleagues.<br></br>— after creating some projects that taught me a lot about HTML &amp; CSS!</p>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
