@@ -5,7 +5,8 @@ import { Col } from "react-bootstrap";
 const portfoliocard  = ({ title, imgUrl,  link }) => {
   return (
     <Col size={12} sm={6} md={4}>
-      <article className='portfolio__item'>
+      <article className='portfolio__item' data-aos="fade-up"
+     data-aos-duration="3000">
         <div className="portfolio__item-image">
           <img src={imgUrl} alt="" />
         </div>
