@@ -18,6 +18,12 @@ const Portfolio = () => {
       
       link: "https://avantexpo.prakarsh.org/",
     },
+    {
+      imgurl: "project/aeroconnect.png",
+      title: "Aero-CONNECT",
+      
+      link: "https://github.com/VadhwanaParth15/Aero-CONNECT",
+    },
    
   ];
   return (
