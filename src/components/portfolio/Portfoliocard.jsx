@@ -6,10 +6,12 @@ import { motion } from "framer-motion"
 const portfoliocard  = ({ title, imgUrl,  link }) => {
   return (
     <Col size={12} sm={6} md={4}>
-      <motion.article className='portfolio__item' whileHover={{ scale: 1.2 }}
+      
+      <motion.article className='portfolio__item' 
+       whileHover={{ scale: 1.2 }}
   onHoverStart={e => {}}
   onHoverEnd={e => {}}>
-        <div className="portfolio__item-image">
+        <div className="portfolio__item-image" >
           <img src={imgUrl} alt="" />
         </div>
         <h3>{title}</h3>

@@ -7,19 +7,19 @@ import './portfolio.css'
 const Portfolio = () => {
   const event = [
     {
-      imgurl: "project/prakarsh.png",
+      imgurl: "project/prakarsh.webp",
       title: "Prakarsh-23",
       
       link: "https://prakarsh.org/",
     },
     {
-      imgurl: "project/Avanta.png",
+      imgurl: "project/Avanta.webp",
       title: "Avant",
       
       link: "https://avantexpo.prakarsh.org/",
     },
     {
-      imgurl: "project/aeroconnect.png",
+      imgurl: "project/aeroconnect.webp",
       title: "Aero-CONNECT",
       
       link: "https://github.com/VadhwanaParth15/Aero-CONNECT",
@@ -30,7 +30,7 @@ const Portfolio = () => {
     <section className="portfolio" id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
-    <div className='container portfolio__container'>
+    <div className='container portfolio__container' >
       {event.map((members) => (
           <Portfoliocard
             imgUrl={members.imgurl}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/parth.png'
+import ME from '../../assets/parth.webp'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {FaAward} from 'react-icons/fa'
 const about = () => {
