@@ -10,7 +10,7 @@ const about = () => {
       <h2 data-aos="zoom-in-up" data-aos-duration="1000">About Me</h2>
       <div className="container about__container">
         <div className="about__me" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+     data-aos-anchor-placement="center-bottom" data-aos-duration="900">
           <div className="about__me-image" >
             <img src={ME} alt="" />
           </div>
