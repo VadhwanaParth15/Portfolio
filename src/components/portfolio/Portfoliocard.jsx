@@ -7,7 +7,7 @@ const portfoliocard  = ({ title, imgUrl,  link }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div  data-aos="fade-up"
-       data-aos-duration="1000">
+       data-aos-duration="1300">
       
       <motion.article className='portfolio__item' 
        whileHover={{ scale: 1.2 }}

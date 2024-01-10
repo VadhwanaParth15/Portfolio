@@ -21,8 +21,8 @@ function Contact() {
   };
   return (
     <section id='contact'>
-      <h5 data-aos="zoom-in-up" data-aos-duration="1000">Get In Touch</h5>
-      <h2 data-aos="zoom-in-up" data-aos-duration="1000">Contact Me</h2>
+      <h5 data-aos="zoom-in-up" data-aos-duration="1300">Get In Touch</h5>
+      <h2 data-aos="zoom-in-up" data-aos-duration="1300">Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <artical className="contact__option" data-aos="fade-up"

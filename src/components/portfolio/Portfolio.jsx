@@ -28,8 +28,8 @@ const Portfolio = () => {
   ];
   return (
     <section className="portfolio" id="portfolio">
-      <h5 data-aos="zoom-in-up" data-aos-duration="1000">My recent work</h5>
-      <h2 data-aos="zoom-in-up" data-aos-duration="1000">Portfolio</h2>
+      <h5 data-aos="zoom-in-up" data-aos-duration="1300">My recent work</h5>
+      <h2 data-aos="zoom-in-up" data-aos-duration="1300">Portfolio</h2>
     <div className='container portfolio__container' >
       {event.map((members) => (
           <Portfoliocard
