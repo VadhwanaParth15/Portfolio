@@ -10,7 +10,7 @@ const Portfolio = () => {
       imgurl: "project/prakarsh.webp",
       title: "Prakarsh-23",
       
-      link: "https://github.com/VadhwanaParth15",
+      link: "https://prakarsh-23.pages.dev/",
     },
     {
       imgurl: "project/Avanta.webp",
