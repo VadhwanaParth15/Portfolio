@@ -13,9 +13,9 @@ const footer = () => {
         <a href="https://www.linkedin.com/in/parth-vadhwana-74b623220" target="_blank"><BsTwitter/></a>
         <a href="https://instagram.com/pxrth.02?igshid=ZDdkNTZiNTM=" target="_blank"><BsInstagram/></a>
     </div>
-        <p class="company-name">
-         Copyright 2022. Parth All Rights Reserved
-        </p>
+        <p className="company-name">
+    Copyright {new Date().getFullYear()}. Parth All Rights Reserved
+</p>
 </footer>
   )
 }
