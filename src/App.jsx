@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import Loader from "./components/loader/Loader";
+const Skill= lazy(() => import("./components/skill/Skill"));
 const Header = lazy(() => import("./components/header/Header"));
 const Nav = lazy(() => import("./components/nav/Nav"));
 const About = lazy(() => import("./components/about/About"));
@@ -15,6 +16,7 @@ const App = () => {
         <Nav />
         <About />
         <Experience />
+        <Skill />
         <Portfolio/>
         <Contact />
         <Footer/>

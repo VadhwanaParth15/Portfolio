@@ -1,61 +1,62 @@
-.experience__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-.experience__container > div{
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-.experience__container > div:hover{
-    background: transparent;
-    border-color:var(--color-primary-variant);
-    cursor: default;
-}
-.experience__container > div h3{
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-.experience__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-}
-.experience__details{
+/* Experience.css */
+
+.header {
+    padding-left: 2rem;
+  }
+  
+  .section-subtext {
+    font-size: 18px;
+    color: #6c757d;
+  }
+  
+  .section-headtext {
+    font-size: 24px;
+    font-weight: bold;
+    color: #292929;
+  }
+  
+  .timeline {
+    margin-top: 20px;
     display: flex;
+    flex-direction: column;
+  }
+  
+  .resume-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 3px;
     gap: 1rem;
-}
-.experience__details-icon{
-    margin-top: 6px;
-    color: var(--color-primary);
-}
-
-
-@media screen and (max-width:1024px) {
-   .experience__container{
-    grid-template-columns: 1fr;
-   }
-   .experience__container > div{
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-   }
-   .experience__content{
-    padding: 1rem;
-   }
-}
-
-@media screen and (max-width:600px) {
-   .experience__container{
-    gap: 1rem;
-   }
-   .experience__container > div{
-    width: 100%;
-    padding: 2rem 1rem;
-   }
-
-}
+    width: 125px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #333333;
+    margin-top: 16px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .resume-button:hover {
+    background-color: #6c757d;
+    color: #292929;
+  }
+  
+  .download-btn {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+  }
+  
+  .text-dim {
+    color: #6c757d;
+  }
+  
+  .text-jetLight {
+    color: #fff;
+  }
+  
+  .text-taupe {
+    color: rgba(225,225,255,0.6);
+  }
+  
